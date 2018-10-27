@@ -32,6 +32,7 @@ namespace CodeAndCloud.Web
             });
 
             services.AddTransient<IContactService, ContactService>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
