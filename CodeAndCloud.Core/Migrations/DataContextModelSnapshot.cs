@@ -30,8 +30,6 @@ namespace CodeAndCloud.Core.Migrations
                     b.Property<string>("Email")
                         .HasMaxLength(20);
 
-                    b.Property<bool>("IsAnswer");
-
                     b.Property<string>("Name");
 
                     b.Property<string>("PhoneNumber");

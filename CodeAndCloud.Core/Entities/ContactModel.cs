@@ -14,6 +14,5 @@ namespace CodeAndCloud.Core.Entities
         public virtual string Name { get; set; }
         public virtual string PhoneNumber { get; set; }
         public virtual DateTime CreatedDate { get; set; }
-        public virtual bool IsAnswer { get; set; }
     }
 }
